@@ -239,7 +239,7 @@ namespace CyberSecurityBotAwareness
                         lastTopic = keyword;
                         TrackTopic(keyword);
                         return $"Great! I'll remember that you're interested in {keyword}, {userName}. " +
-                               $"It's a crucial part of staying safe online.\n\n{GetRandomResponse(keyword)}";
+                               $"It's crucial to stay safe online.\n\n{GetRandomResponse(keyword)}";
                     }
                 }
             }
