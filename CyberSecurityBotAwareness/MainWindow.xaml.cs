@@ -122,9 +122,7 @@ namespace CyberSecurityBotAwareness
         /// </summary>
         private void ShowWelcomeMessage()
         {
-            AppendMessage("Guardian Bot", "╔══════════════════════════════════════╗", "#00FF41");
-            AppendMessage("Guardian Bot", "║   CYBERSECURITY GUARDIAN BOT 🛡️      ║", "#00FF41");
-            AppendMessage("Guardian Bot", "╚══════════════════════════════════════╝", "#00FF41");
+
             AppendMessage("Guardian Bot", "Hello! I'm your Cybersecurity Guardian Bot 🛡️\nWhat's your name?", "#00FF41");
         }
 
