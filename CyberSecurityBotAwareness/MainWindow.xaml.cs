@@ -203,7 +203,7 @@ namespace CyberSecurityBotAwareness
                 return $"Nice to meet you, {userName}! 😊\n\n" +
                        $"You can ask me about: passwords, scams, privacy, phishing, malware, VPNs, firewalls, encryption, or 2FA.\n\n" +
                        $"Use the buttons above to open the 📋 Task Manager or 🎮 Quiz!\n" +
-                       $"Type 'show activity log to see recent actions.";
+                       $"Type 'show activity log' to see recent actions.";
             }
 
             string intent = DetectIntent(lower);
