@@ -26,7 +26,7 @@ namespace CyberSecurityBotAwareness
                 "Make sure to use strong, unique passwords for each account. Use a mix of uppercase, lowercase, numbers and symbols!",
                 "Consider using a password manager to keep track of your passwords safely. Never reuse the same password!",
                 "A strong password should be at least 12 characters long. Use a passphrase to make it memorable but secure.",
-                "Never share your passwords with anyone — legitimate services will never ask for your password!"
+                "Never share your passwords with anyone. legitimate services will never ask for your password!"
             }},
             { "scam", new List<string> {
                 "Be cautious of unsolicited messages asking for personal information. Scammers often disguise themselves as trusted organisations!",
