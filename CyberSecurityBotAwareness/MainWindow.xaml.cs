@@ -222,7 +222,7 @@ namespace CyberSecurityBotAwareness
                         favouriteTopic = keyword;
                         lastTopic = keyword;
                         TrackTopic(keyword);
-                        AddToActivityLog($"User set favourite topic to '{keyword}'.");
+                        AddToActivityLog($"User set favourit topic to '{keyword}'.");
                         return $"Great! I'll remember that you're interested in {keyword}, {userName}.\n\n{GetRandomResponse(keyword)}";
                     }
                 }
