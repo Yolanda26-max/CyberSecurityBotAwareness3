@@ -185,7 +185,7 @@ namespace CyberSecurityBotAwareness
             string response = GenerateResponse(input);
             AppendMessage("Guardian Bot", response, "#E91E8C");
 
-            StatusBar.Text = "● Bot responded successfully.";
+            StatusBar.Text = "● Bot responded succesfully.";
         }
 
         #endregion
